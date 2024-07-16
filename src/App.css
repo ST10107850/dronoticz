@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.container {
+/* .container {
   background-image: url('./asset/Images/hero 1.png');
   background-size: cover;
   background-position: center;
@@ -18,9 +18,9 @@ html {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
+} */
 
-.nav {
+.container .nav {
   display: flex;
   padding-top: 10px;
 }
@@ -67,7 +67,7 @@ html {
   margin-top: 10px;
 }
 
-.dr {
+.container .dr {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -306,10 +306,10 @@ html {
     padding: 10px;
     flex-direction: column;
   }
-.nav {
+  .container .nav {
     display: flex;
   }
-  .dr {
+  .container.dr {
     margin-top: 10vh;
   }
 
@@ -340,6 +340,9 @@ html {
 
   .about {
     flex-direction: column;
+    text-align: center;
+    display: flex;
+    position: absolute;
   }
 
   .about img {

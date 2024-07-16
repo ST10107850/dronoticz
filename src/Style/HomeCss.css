@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+:root {
+    --mainColor: #F8F8F8;
+    --primaryColor: #000000;
+    --secondaryColor: #CBDEEC;
+}
+/* Dronotics CSS */
+.container {
+    background-image: url('../asset/Images/hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    margin-top: 250px;
+    transform: translateX(-50%);
+}
+
+.dr h2 {
+    font-size: 52px;
+    align-self: center;
+}
+
+.dr p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.dr hr {
+    width: 40%;
+    margin: 8px 10px;
+    height: 5px;
+    background-color: var(--primaryColor);
+}

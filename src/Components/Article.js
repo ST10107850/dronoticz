@@ -4,20 +4,22 @@ import drone2Image from "../asset/drone2.png";
 import drone3Image from "../asset/Images/drone3.png";
 import drone4Image from "../asset/Images/drone4.png";
 
+import "../Style/Stylesheet.css";
+
 function Article() {
   return (
-    <div className="latest-articles">
+    <div className="articles">
       <p>LATEST ARTICLES</p>
       <hr />
       <div className="article-list">
-        <div className="article">
+        <div className="article-box">
           <img src={droneImage} alt="done 1" />
           <hr />
           <p>
             How to automate <br /> surveillance drones
           </p>
         </div>
-        <div className="article">
+        <div className="article-box">
           <img src={drone2Image} alt="done 2" />
           <hr />
           <p>
@@ -25,7 +27,7 @@ function Article() {
             <br /> Intelligence
           </p>
         </div>
-        <div className="article">
+        <div className="article-box">
           <img src={drone3Image} alt="done 4" />
           <hr />
           <p>
@@ -33,7 +35,7 @@ function Article() {
             <br /> Robotic Prosthetics
           </p>
         </div>
-        <div className="article">
+        <div className="article-box">
           <img src={drone4Image} alt="done 4" />
           <hr />
           <p>

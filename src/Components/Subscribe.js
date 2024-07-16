@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../Style/Stylesheet.css";
 function Subscribe() {
   return (
     <div className="App">
