@@ -10,13 +10,15 @@ function Home() {
               D<span className="backdrop">Z</span>
             </h1>
           </div>
-          <div className="nav-links">
-            <a href="#about">ABOUT</a>
-            <a href="#article">ARTICLE</a>
+          <div>
+            <div className="nav-links">
+              <a href="#about">ABOUT</a>
+              <a href="#article">ARTICLE</a>
+            </div>
+            <a href="#subscribe" className="subscribe-link">
+              Subscribe
+            </a>
           </div>
-          <a href="#subscribe" className="subscribe-link">
-            Subscribe
-          </a>
         </nav>
 
         <div className="dr">

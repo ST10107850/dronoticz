@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -12,21 +13,24 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 60vh;
   padding-left: 20px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .nav {
   display: flex;
   padding-top: 10px;
 }
-.backdrop{
+
+.backdrop {
   color: #F8F8F8;
-} 
+}
+
 .nav h1 {
-  font-size: 24px;
+  font-size: 2rem;
   margin-right: auto;
 }
 
@@ -35,19 +39,18 @@ html {
   display: flex;
   gap: 10%;
   position: absolute;
-  text-decoration: none;
   color: #000;
-  left: 50%; 
-  transform: translateX(-50%); 
+  left: 50%;
+  transform: translateX(-50%);
   margin-top: 25px;
 }
 
 .nav-links p {
-  font-size: 16px;
+  font-size: 1rem;
   margin: 0;
 }
 
-.nav a{
+.nav a {
   text-decoration: none;
   color: #000;
 }
@@ -55,36 +58,36 @@ html {
 .subscribe-link {
   text-decoration: none;
   color: #000;
-  font-size: 16px;
+  font-size: 1rem;
   right: 20px;
   position: absolute;
   border: 1px solid #000;
   padding: 10px 20px;
   border-radius: 4px;
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
 .dr {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 150px;
+  margin-top: 15vh;
 }
 
 .dr h2 {
-  font-size: 42px;
-  margin-right: 20px;
-  margin-left: 20px;
+  font-size: 2.625rem;
+  margin: 0 20px;
   align-self: center;
 }
 
 .dr p {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
-.dr hr{
+
+.dr hr {
   width: 40%;
   margin: 8px 0;
   height: 5px;
@@ -97,17 +100,17 @@ html {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  box-sizing: border-box; 
-  margin-top: 100px;
+  box-sizing: border-box;
+  margin-top: 10vh;
 }
 
 .latest-articles p {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: lighter;
   margin-bottom: 20px;
-  
 }
-.latest-articles hr{
+
+.latest-articles hr {
   width: 8%;
   margin: 8px 0;
   height: 3px;
@@ -115,36 +118,36 @@ html {
 }
 
 .article-list {
-  margin-top: 50px;
+  margin-top: 5vh;
   display: flex;
   gap: 10px;
   overflow-x: auto;
   width: 100%;
-  justify-content: center; 
-  padding: 0 10px; 
+  justify-content: center;
+  padding: 0 10px;
 }
 
 .article {
-  width: 500px;
+  width: 31.25rem;
   padding: 10px;
   text-align: center;
   background-color: white;
 }
 
 .article h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   margin-bottom: 5px;
 }
 
 .article p {
-  font-size: 16px;
+  font-size: 1rem;
   color: #000000;
   margin: 0;
 }
 
 .article img {
-  width: 290px;
-  height: 190px;
+  width: 18.125rem;
+  height: 11.875rem;
 }
 
 .article hr {
@@ -155,11 +158,10 @@ html {
   height: 2px;
 }
 
-
 .about-list {
   display: flex;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 7vh;
 }
 
 .about {
@@ -172,27 +174,29 @@ html {
 }
 
 .about img {
-  width: 600px;
+  width: 37.5rem;
   height: auto;
   margin-right: 20px;
 }
 
 .about-text {
   flex: 1;
-  margin: 100px;
+  margin: 10vh;
   text-align: center;
 }
 
 .about .h1 {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin: 0;
   font-weight: lighter;
 }
-.about .about-p{
-  font-size: 24px;
+
+.about .about-p {
+  font-size: 1.5rem;
   font-weight: lighter;
   text-align: center;
 }
+
 .about hr {
   width: 80px;
   background-color: #000000;
@@ -202,7 +206,7 @@ html {
 }
 
 .about p {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.6;
   text-align: left;
   margin: 0;
@@ -212,18 +216,17 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 10vh 0;
 }
 
 .subscribe .sub-p {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: lighter;
   text-align: center;
 }
 
 .subscribe p {
-  font-size: 16px;
+  font-size: 1rem;
   margin: 20px 0;
 }
 
@@ -234,17 +237,17 @@ html {
 }
 
 .subscribe-form input[type="email"] {
-  width: 300px;
+  width: 18.75rem;
   padding: 10px;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 0.875rem;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
 .subscribe-form button {
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: #F8F8F8;
   color: #000000;
   border: 1px solid #000000;
@@ -291,38 +294,39 @@ html {
 .subscribes {
   text-decoration: none;
   color: #000;
-  font-size: 16px;
+  font-size: 1rem;
   border: 1px solid #000;
   padding: 10px 20px;
   border-radius: 4px;
 }
 
-/* Media Queries for responsiveness */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .container {
-    height: auto;
+    height: 400px;
     padding: 10px;
     flex-direction: column;
   }
-
+.nav {
+    display: flex;
+  }
   .dr {
-    margin-top: 100px;
+    margin-top: 10vh;
   }
 
   .dr h2 {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .dr p {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .latest-articles {
-    margin-top: 50px;
+    margin-top: 5vh;
   }
 
   .latest-articles p {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .article-list {
@@ -354,11 +358,9 @@ html {
     flex-direction: column;
     align-items: flex-start;
   }
-}
 
-@media (max-width: 480px) {
   .nav h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .nav-links {
@@ -371,7 +373,7 @@ html {
   }
 
   .nav-links p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .subscribe-link {
@@ -381,15 +383,15 @@ html {
   }
 
   .dr h2 {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .dr p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .latest-articles p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .article img {
@@ -398,23 +400,23 @@ html {
 
   .about .h1,
   .about .about-p {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .about p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .subscribe .sub-p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .subscribe p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .subscribe-form button {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .footer {
