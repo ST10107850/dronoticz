@@ -120,6 +120,8 @@ header .backdrop{
     align-items: center;
     box-sizing: border-box;
     margin-top: 200px;
+    margin-left: 20px;
+    margin-left: 20px;
 }
 
 .articles p {
@@ -145,7 +147,7 @@ header .backdrop{
 }
 
 .article-box {
-    width: 390px;
+    width: 360px;
     padding: 10px;
     text-align: center;
     background-color: white;
