@@ -16,9 +16,9 @@ function App() {
         <Article />
       </section>
 
-      {/* <section id="about">
+      <section id="about">
         <About />
-      </section> */}
+      </section>
       <section id="subscribe">
         <Subscribe />
       </section>

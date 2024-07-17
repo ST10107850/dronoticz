@@ -79,7 +79,7 @@ header .nav-links {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 600px;
     padding-left: 20px;
     display: flex;
     justify-content: space-between;
@@ -91,7 +91,7 @@ header .nav-links {
     align-items: center;
     position: absolute;
     left: 50%;
-    margin-top: 350px;
+    margin-top: 250px;
     transform: translateX(-50%);
 }
 
@@ -119,7 +119,7 @@ header .nav-links {
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    margin-top: 10vh;
+    margin-top: 200px;
 }
 
 .articles p {
@@ -222,52 +222,53 @@ header .nav-links {
     margin-left: 10px;
 }
 
+
 .subscribe {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 0;
-}
-
-.subscribe .sub-p {
+    margin: 10vh 0;
+  }
+  
+  .subscribe .sub-p {
     font-size: 1.5rem;
     font-weight: lighter;
     text-align: center;
-}
-
-.subscribe p {
+  }
+  
+  .subscribe p {
     font-size: 1rem;
     margin: 20px 0;
-}
-
-.subscribe-form {
+  }
+  
+  .subscribe-form {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.subscribe-form input[type="email"] {
+  }
+  
+  .subscribe-form input[type="email"] {
     width: 18.75rem;
     padding: 10px;
     margin-bottom: 10px;
     font-size: 0.875rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
-
-.subscribe-form button {
+  }
+  
+  .subscribe-form button {
     padding: 10px 20px;
     font-size: 1rem;
     background-color: #F8F8F8;
-    color: var(--primaryColor);
+    color: #000000;
     border: 1px solid #000000;
     cursor: pointer;
     border-radius: 4px;
-}
-
-.subscribe-form button:hover {
+  }
+  
+  .subscribe-form button:hover {
     background-color: #555252;
-}
+  }
 
 .footer {
     background-color: white;
@@ -394,13 +395,25 @@ header .nav-links {
         margin: 0;
     }
 
+    .about-text {
+        margin: 0;
+        padding: 0;
+    }
+
     .about {
         width: 100%;
         display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .about p {
         width: 100%;
+        /* text-wrap:  */
+    } 
+    .about img{
+        width: 100%;
+        height: auto;
     }
 
     .subscribe {
@@ -460,8 +473,9 @@ header .nav-links {
 
     .footer .left,
     .footer .right {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        
     }
 
     .footer .left a {
