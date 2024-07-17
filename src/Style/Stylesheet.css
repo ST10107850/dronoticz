@@ -73,7 +73,9 @@ header .nav-links {
     position: absolute;
     transform: translateX(-50%);
 }
-
+header .backdrop{
+    color: #ffffff;
+}
 .container {
     background-image: url('../asset//Images/hero 1.png'); /* Fixed URL */
     background-size: cover;
