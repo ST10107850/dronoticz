@@ -183,7 +183,8 @@ header .backdrop{
     padding: 20px;
     background-color: white;
     padding: 20px;
-    margin-top: 10vh;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .about img {
