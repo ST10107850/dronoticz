@@ -180,11 +180,7 @@ header .backdrop{
     margin-top: 250px;
     display: flex;
     align-items: center;
-    padding: 20px;
     background-color: white;
-    padding: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .about img {
@@ -195,7 +191,6 @@ header .backdrop{
 
 .about-text {
     flex: 1;
-    margin: 10vh;
     text-align: center;
 }
 
@@ -219,8 +214,8 @@ header .backdrop{
     font-size: 16px;
     line-height: 1.6;
     text-align: left;
-    margin: 0;
-    margin-left: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 
