@@ -181,6 +181,8 @@ header .backdrop{
     display: flex;
     align-items: center;
     background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .about img {
