@@ -114,18 +114,18 @@ header .backdrop{
 
 /* Article CSS */
 .articles {
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
     margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .articles p {
-    font-size: 1.5rem;
+    font-size: 28px;
     font-weight: lighter;
-    margin-bottom: 20px;
 }
 
 .articles hr {
@@ -133,19 +133,20 @@ header .backdrop{
     margin: 8px 0;
     height: 3px;
     background-color: var(--primaryColor);
+    margin-top: 20px;
 }
 
 .article-list {
     margin-top: 5vh;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     overflow-x: auto;
     justify-content: center;
     padding: 0 10px;
 }
 
 .article-box {
-    width: 360px;
+    width: 380px;
     padding: 10px;
     text-align: center;
     background-color: white;
@@ -181,7 +182,8 @@ header .backdrop{
     display: flex;
     align-items: center;
     background-color: white;
-    
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .about img {
@@ -423,15 +425,16 @@ header .backdrop{
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
 
     .about p {
         width: 100%;
-        margin: 0;
     } 
     .about img{
         width: 100%;
         height: auto;
+      
     }
 
     .subscribe {
