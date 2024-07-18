@@ -181,8 +181,7 @@ header .backdrop{
     display: flex;
     align-items: center;
     background-color: white;
-    margin-left: 20px;
-    margin-right: 20px;
+    
 }
 
 .about img {
@@ -428,7 +427,7 @@ header .backdrop{
 
     .about p {
         width: 100%;
-        /* text-wrap:  */
+        margin: 0;
     } 
     .about img{
         width: 100%;
