@@ -6,7 +6,7 @@ function Subscribe() {
     <div className="App">
       <div className="subscribe">
         <p className="sub-p">SUBSCRIBE</p>
-        <p>Sign up to our newsletter for the latest updates</p>
+        <p>Sign up to our newsletter</p>
         <form className="subscribe-form">
           <input type="email" placeholder="Your Email" />
           <button type="submit">SUBMIT</button>

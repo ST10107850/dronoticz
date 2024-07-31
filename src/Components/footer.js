@@ -37,7 +37,7 @@ function Footer() {
         </div>
         <div className="right">
           <a href="#about">ABOUT US</a>
-          <a href="#article">ARTICLE</a>
+          <a href="#article">ARTICLES</a>
           <a href="#subscribe" className="subscribes">
             Subscribe
           </a>

@@ -14,34 +14,42 @@ function Article() {
       <div className="article-list">
         <div className="article-box">
           <img src={droneImage} alt="done 1" />
-          <hr />
-          <p>
-            How to automate <br /> surveillance drones
-          </p>
+          <div className="second-box">
+            <hr />
+            <p>
+              How to automate <br /> surveillance drones
+            </p>
+          </div>
         </div>
         <div className="article-box">
           <img src={drone2Image} alt="done 2" />
-          <hr />
-          <p>
-            Robotics and Artificial
-            <br /> Intelligence
-          </p>
+          <div className="second-box">
+            <hr />
+            <p>
+              Robotics and Artificial
+              <br /> Intelligence
+            </p>
+          </div>
         </div>
         <div className="article-box">
           <img src={drone3Image} alt="done 4" />
-          <hr />
-          <p>
-            Improving Lives through
-            <br /> Robotic Prosthetics
-          </p>
+          <div className="second-box">
+            <hr />
+            <p>
+              Improving Lives through
+              <br /> Robotic Prosthetics
+            </p>
+          </div>
         </div>
         <div className="article-box">
           <img src={drone4Image} alt="done 4" />
-          <hr />
-          <p>
-            Power of Robotics in
-            <br /> Agriculture
-          </p>
+          <div className="second-box">
+            <hr />
+            <p>
+              Power of Robotics in
+              <br /> Agriculture
+            </p>
+          </div>
         </div>
       </div>
     </div>

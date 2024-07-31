@@ -19,23 +19,22 @@ function Navbar({ closeOtherSections }) {
         D<span className="backdrop">Z</span>
       </h3>
       <nav ref={navRef}>
-        <div className="nav-links">
-          <a href="#about" onClick={closeNavBar}>
-            ABOUT
-          </a>
-          <a href="#article" onClick={closeNavBar}>
-            ARTICLE
-          </a>
-        </div>
-        <div className="subscribe-link">
-          <a href="#subscribe" onClick={closeNavBar}>
-            Subscribe
-          </a>
-        </div>
-
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
           <FaTimes />
         </button>
+        <div className="nav-links">
+          <div className="centered-nav">
+            <a href="#about" onClick={closeNavBar}>
+              ABOUT
+            </a>
+            <a href="#article" onClick={closeNavBar}>
+              ARTICLES
+            </a>
+          </div>
+          <a href="#subscribe" className="subscribe-link" onClick={closeNavBar}>
+            SUBSCRIBE
+          </a>
+        </div>
       </nav>
       <button className="nav-btn" onClick={showNavBar}>
         <FaBars />

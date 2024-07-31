@@ -6,7 +6,6 @@ function Home() {
   return (
     <div className="App">
       <div className="container">
-        <Navbar />
         <div className="dr">
           <h2>DRONOTICZ</h2>
           <p>THE ERA OF DRONES</p>
